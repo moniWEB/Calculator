@@ -1,0 +1,63 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+body{
+ 
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin-bottom: 200px;
+}
+.calbar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin-top: 220px;
+}
+.main-display input{
+    width: 250px;height: 70px;
+    background-color: rgb(0, 57, 57);
+    color: aliceblue;
+    font-size: 30px;
+    border-radius: 40px 5px 40px 5px;
+    background-image: url(img/content-background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    margin-bottom: 20px;
+}
+.key input{
+    width: 50px;
+    height: 50px;
+    border: none;
+    border-radius: 20px 3px 20px 3px ;
+    border: px solid rgb(17, 0, 255);
+    background-color: rgb(0, 0, 111);
+    color: rgb(0, 32, 75);
+    font-weight: bold;
+    margin: 5px;
+    font-size: 25px;
+    box-shadow: -8px -4px 15px rgba(0, 0, 0, 0.907), 5px 5px 15px rgba(0, 0, 0, 0.2);
+    background-image: url(img/md3.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.key .morethan{
+    width: 110px;
+    height: 50px;
+    padding: 3px;
+    margin: 5px;
+    border-radius: 20px 2px 20px 2px;
+    border: px solid rgb(17, 0, 255);
+    background-color: rgb(0, 0, 111);
+    color: aliceblue;
+    box-shadow: -8px -4px 15px rgba(0, 0, 0, 0.907), 5px 5px 15px rgba(0, 0, 0, 0.2);
+    background-image: url(img/img-3.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
